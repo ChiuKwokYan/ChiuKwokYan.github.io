@@ -1,23 +1,216 @@
-baseURL = 'https://chiukwokyan.github.io/' # Replace with your GitHub username
-languageCode = 'en-us'
-title = 'My Hugo Site'
-theme = 'PaperMod'
+baseURL = "https://chiukwokyan.github.io/"
+languageCode = "en-us"
+title = "Kwok Yan Chiu"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = [ "research" ]
+
+[minify]
+disableXML = true
+minifyOutput = true
 
 [params]
-  ShowReadingTime = true
-  ShowBreadCrumbs = true
-  ShowToc = true
-  TocOpen = true
+env = "production"
+title = "KwokYanChiuWebsite"
+description = "Kwok Yan Chiu's Academic Website"
+author = "Me"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "light"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = true
+showtoc = true
+tocopen = false
+math = true
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
 
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 20
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "Kwok Yan Chiu (趙國殷)"
+  subtitle = "I am a sixth-year economics Ph.D. candidate at Northwestern University. I am currently on the 2024-2025 job market. My research focuses on macroeconomics, with a particular emphasis on household heterogeneity and micro-level expectation data."
+  imageUrl = "profile.jpg"
+  imageWidth = 250
+  imageHeight = 250
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "CV"
+    url = "Kwok Yan Chiu Academic CV.pdf"
+
+    [[params.profileMode.buttons]]
+    name = "Job Market Paper"
+    url = "/research/het_beliefs_wealth_inequality_paper.pdf"
+
+    [[params.profileMode.buttons]]
+    name = "Research"
+    url = "/research/"
+
+    [[params.profileMode.buttons]]
+    name = "NU Econ Job Market Website"
+    url = "https://sites.northwestern.edu/kyc1728/"
+
+  [params.homeInfoParams]
+  Title = "Biography"
+  Content = ""
+
+  [[params.socialIcons]]
+  name = "Email"
+  url = "mailto:KwokYan.Chiu@u.northwestern.edu"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/ChiuKwokYan"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = false
+  Text = false
+  appendFilePath = false
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "Home"
+name = "Home"
+url = "/"
+weight = 5
+
+[[menu.main]]
+identifier = "CV"
+name = "CV"
+url = "Kwok Yan Chiu Academic CV.pdf"
+weight = 10
+
+[[menu.main]]
+identifier = "Research"
+name = "Research"
+url = "/research/"
+weight = 20
+
+[[menu.main]]
+identifier = "Teaching"
+name = "Teaching"
+url = "/teaching/"
+weight = 30
+
+[markup.goldmark]
+duplicateResourceFiles = false
+
+  [markup.goldmark.extensions]
+  definitionList = true
+  footnote = true
+  linkify = true
+  linkifyProtocol = "https"
+  strikethrough = true
+  table = true
+  taskList = true
+
+    [markup.goldmark.extensions.cjk]
+    eastAsianLineBreaks = false
+    eastAsianLineBreaksStyle = "simple"
+    enable = false
+    escapedSpace = false
+
+[markup.goldmark.extensions.extras.delete]
+enable = false
+
+[markup.goldmark.extensions.extras.insert]
+enable = false
+
+[markup.goldmark.extensions.extras.mark]
+enable = false
+
+[markup.goldmark.extensions.extras.subscript]
+enable = false
+
+[markup.goldmark.extensions.extras.superscript]
+enable = false
+
+    [markup.goldmark.extensions.passthrough]
+    enable = false
+
+      [markup.goldmark.extensions.passthrough.delimiters]
+      block = [ ]
+      inline = [ ]
+
+    [markup.goldmark.extensions.typographer]
+    apostrophe = "&rsquo;"
+    disable = false
+    ellipsis = "&hellip;"
+    emDash = "&mdash;"
+    enDash = "&ndash;"
+    leftAngleQuote = "&laquo;"
+    leftDoubleQuote = "&ldquo;"
+    leftSingleQuote = "&lsquo;"
+    rightAngleQuote = "&raquo;"
+    rightDoubleQuote = "&rdquo;"
+    rightSingleQuote = "&rsquo;"
+
+  [markup.goldmark.parser]
+  autoHeadingID = true
+  autoHeadingIDType = "github"
+  wrapStandAloneImageWithinParagraph = true
+
+    [markup.goldmark.parser.attribute]
+    block = false
+    title = true
+
+[markup.goldmark.renderHooks.image]
+enableDefault = false
+
+[markup.goldmark.renderHooks.link]
+enableDefault = false
+
+  [markup.goldmark.renderer]
+  hardWraps = false
+  unsafe = true
+  xhtml = false
