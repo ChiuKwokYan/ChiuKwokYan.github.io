@@ -9,7 +9,7 @@ description: ""
 
 + [<span style="color: brown;">Heterogenous Beliefs about Stock Returns and Wealth Inequality</span>](het_beliefs_wealth_inequality_paper.pdf)
 (**Job Market Paper**)\
-Latest draft *November 2024*\
+Latest draft *December 2024*\
 (Update frequently!)
 <br/><br/>
 
