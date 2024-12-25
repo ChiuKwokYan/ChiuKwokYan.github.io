@@ -1,0 +1,23 @@
+baseURL = 'https://chiukwokyan.github.io/' # Replace with your GitHub username
+languageCode = 'en-us'
+title = 'My Hugo Site'
+theme = 'PaperMod'
+
+[params]
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
