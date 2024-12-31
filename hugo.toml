@@ -66,6 +66,10 @@ math = true
     url = "Kwok Yan Chiu Academic CV.pdf"
 
     [[params.profileMode.buttons]]
+    name = "Resume"
+    url = "Kwok Yan Chiu Academic Resume.pdf"
+
+    [[params.profileMode.buttons]]
     name = "Job Market Paper"
     url = "/research/het_beliefs_wealth_inequality_paper.pdf"
 
