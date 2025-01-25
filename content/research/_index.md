@@ -7,7 +7,7 @@ description: ""
 ### Working Papers
 
 
-+ [<span style="color: brown;">Heterogenous Beliefs about Stock Returns and Wealth Inequality</span>](het_beliefs_wealth_inequality_paper.pdf)
++ [<span style="color: brown;">Heterogeneous Beliefs about Stock Returns and Wealth Inequality</span>](het_beliefs_wealth_inequality_paper.pdf)
 (**Job Market Paper**)\
 Latest draft *December 2024*\
 (Update frequently!)
