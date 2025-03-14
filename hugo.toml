@@ -55,7 +55,7 @@ math = true
   [params.profileMode]
   enabled = true
   title = "Kwok Yan Chiu (趙國殷)"
-  subtitle = "I am a sixth-year economics Ph.D. candidate at Northwestern University. I am currently on the 2024-2025 job market. My research focuses on macroeconomics, with a particular emphasis on household heterogeneity and micro-level expectation data."
+  subtitle = "I am a sixth-year economics Ph.D. candidate at Northwestern University. My research focuses on macroeconomics, with a particular emphasis on household heterogeneity and micro-level expectation data. Starting from August 2025, I will be joining the University of Mannheim as a Postdoctoral Researcher."
   imageUrl = "profile.jpg"
   imageWidth = 250
   imageHeight = 250
