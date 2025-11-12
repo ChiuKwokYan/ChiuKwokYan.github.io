@@ -55,7 +55,7 @@ math = true
   [params.profileMode]
   enabled = true
   title = "Kwok Yan Chiu (趙國殷)"
-  subtitle = "I am a sixth-year economics Ph.D. candidate at Northwestern University. My research focuses on macroeconomics, with a particular emphasis on household heterogeneity and micro-level expectation data. Starting from August 2025, I will be joining the University of Mannheim as a Postdoctoral Researcher."
+  subtitle = "I am a Postdoctoral Researcher with the University of Mannheim, and an affiliated member of Macro Inequality Lab. My research focuses on macroeconomics, household finance, and household heterogeneity."
   imageUrl = "profile.jpg"
   imageWidth = 250
   imageHeight = 250
@@ -63,23 +63,11 @@ math = true
 
     [[params.profileMode.buttons]]
     name = "CV"
-    url = "Kwok Yan Chiu Academic CV.pdf"
-
-    [[params.profileMode.buttons]]
-    name = "Resume"
-    url = "Kwok Yan Chiu Academic Resume.pdf"
-
-    [[params.profileMode.buttons]]
-    name = "Job Market Paper"
-    url = "/research/het_beliefs_wealth_inequality_paper.pdf"
+    url = "KwokYanChiu_CV.pdf"
 
     [[params.profileMode.buttons]]
     name = "Research"
     url = "/research/"
-
-    [[params.profileMode.buttons]]
-    name = "NU Econ Job Market Website"
-    url = "https://sites.northwestern.edu/kyc1728/"
 
   [params.homeInfoParams]
   Title = "Biography"
@@ -87,7 +75,7 @@ math = true
 
   [[params.socialIcons]]
   name = "Email"
-  url = "mailto:KwokYan.Chiu@u.northwestern.edu"
+  url = "mailto:kwok.yan.chiu@uni-mannheim.de"
 
   [[params.socialIcons]]
   name = "github"
@@ -131,7 +119,7 @@ weight = 5
 [[menu.main]]
 identifier = "CV"
 name = "CV"
-url = "Kwok Yan Chiu Academic CV.pdf"
+url = "KwokYanChiu_CV.pdf"
 weight = 10
 
 [[menu.main]]

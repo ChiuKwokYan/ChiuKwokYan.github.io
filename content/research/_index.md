@@ -8,9 +8,9 @@ description: ""
 
 
 + [<span style="color: brown;">Heterogeneous Beliefs about Stock Returns and Wealth Inequality</span>](het_beliefs_wealth_inequality_paper.pdf)
-(**Job Market Paper**)\
+\
 Latest draft *December 2024*\
-(Update frequently!)
+(Large Revision Coming!)
 <br/><br/>
 
 + [<span style="color: brown;">How Important is Belief Heterogeneity of Households?</span>](belief_heterogeneity.pdf) (Preliminary)\
