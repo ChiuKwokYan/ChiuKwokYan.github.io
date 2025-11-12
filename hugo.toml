@@ -55,7 +55,7 @@ math = true
   [params.profileMode]
   enabled = true
   title = "Kwok Yan Chiu (趙國殷)"
-  subtitle = "I am a Postdoctoral Researcher with the University of Mannheim, and an affiliated member of Macro Inequality Lab. My research focuses on macroeconomics, household finance, and household heterogeneity."
+  subtitle = "I am a Postdoctoral Researcher with the University of Mannheim, Department of Economics, and an affiliated member of Macro Inequality Lab. My research focuses on macroeconomics, household finance, and household heterogeneity."
   imageUrl = "profile.jpg"
   imageWidth = 250
   imageHeight = 250
@@ -68,6 +68,10 @@ math = true
     [[params.profileMode.buttons]]
     name = "Research"
     url = "/research/"
+
+    [[params.profileMode.buttons]]
+    name = "Macro Inequality Lab"
+    url = "http://macro-inequality-lab.net/"
 
   [params.homeInfoParams]
   Title = "Biography"

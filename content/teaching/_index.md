@@ -6,6 +6,7 @@ description: ""
 ## Teaching Experience
 
 Teaching Assistant, Northwestern University
+- Natural Resource Economics, 2025 Spring
 - Intermediate Macroeconomics, 2023 Spring/Fall, 2024 Winter
 - Introduction to Microeconomics, 2021 Winter/Spring
 - Intermediate Microeconomics I, 2020 Fall
